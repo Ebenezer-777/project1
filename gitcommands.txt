@@ -1,0 +1,58 @@
+   54  mkdir gitfolder
+   55  cd gitfolder/
+   57  git init
+   58  git clone git@github.com:Ebenezer-777/project1.git
+   67  cd gitfolder/project1/
+   69  cd gitfolder/
+   74  git status
+   75  git checkout *
+   76  git checkout .
+   77  git status
+   78  git checkout file1
+   79  git checkout file2
+   80  git branch a
+   81  git branch -a
+   82  git branch --delete a
+   83  git branch -a
+   84  git status
+   88  git status
+   93  cd gitfolder/
+  142  cd gitfolder/
+  148  git status
+  149  git add .
+  150  git commit -m "Created a new file"
+  151  git config --global user.email "anoopebenezer@gmail.com"
+  152  git config --global user.name "anoopebenezer"
+  153  git status
+  154  git commit -m "Created a new file"
+  155  git status
+  156  git push -u origin master
+  157  git status
+  187  git status
+  188  git branch
+  190  git status
+  191  git add .
+  192  git commit -m "changes"
+  193  git push -u origin master
+  194  git status
+  196  git checkout br1
+  197  git branch
+  198  git branch -c branch1
+  199  git branch
+  200  git checkout branch1 
+  201  git branch
+  205  git branch
+  206  git status
+  207  git add .
+  208  git commit -m "removed backup file"
+  209  git push -u origin branch1
+  210  git status
+  211  git branch
+  212  git switch master
+  213  git branch
+  214  git merge branch1
+  215  git status
+  216  git push -u origin master
+  217  git status
+  220  history | grep git
+  221  history | grep git > gitcommands.txt
